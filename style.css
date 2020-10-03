@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    height: 500px;
+    width: 500px;
+    /* https://icons8.com/icon/5237/tap */
+    cursor: url('images/cursor.png'), auto;
+}
+
+.image {
+
+    height: 100%;
+    width: 100%;
+    transform-origin: center center;
+    object-fit: cover;
+}
